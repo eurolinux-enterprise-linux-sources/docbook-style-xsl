@@ -1,6 +1,6 @@
 Name: docbook-style-xsl
 Version: 1.78.1
-Release: 2%{?dist}
+Release: 3%{?dist}
 Group: Applications/Text
 
 Summary: Norman Walsh's XSL stylesheets for DocBook XML
@@ -126,6 +126,9 @@ if [ "$1" = 0 ]; then
 fi
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.78.1-3
+- Mass rebuild 2013-12-27
+
 * Mon Jul 29 2013 Ondrej Vasik <ovasik@redhat.com> 1.78.1-2
 - use DMIT (modified MIT) as a license for the
   stylesheets (#988715)
